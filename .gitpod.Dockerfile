@@ -1,5 +1,9 @@
-FROM gitpod/workspace-full
+FROM node:20
 
-# تثبيت Chromium
-RUN sudo apt-get update && \
-    sudo apt-get install -y chromium-browser
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+
+CMD ["npm", "start"]
