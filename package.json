@@ -1,0 +1,13 @@
+{
+  "name": "voter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "puppeteer-extra": "^4.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.1"
+  }
+}
